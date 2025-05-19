@@ -7,7 +7,7 @@ st.set_page_config(page_title="Chatbot IA Emocional", layout="centered")
 st.title("Chatbot de Bem-Estar Emocional")
 
 # Chave da API OpenAI
-openai.api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+openai.api_key = st.secrets.get("OPENAI_API_KEY"
 
 # Prompt fixo
 system_prompt = """
